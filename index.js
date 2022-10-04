@@ -16,7 +16,7 @@ const app = http.createServer( async (res, req) => {
     res.end(await fs.readFile("./pages/contact-me.html"))
   } else {
       res.statusCode = 404
-      res.end(await fs.readFile("./pages/about.html"))
+      res.end(await fs.readFile("./pages/404.html"))
   }
 })
 app.listen(port, () => {
