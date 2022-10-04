@@ -1,7 +1,6 @@
 import dotenv from "dotenv"
 import http from "http"
 import fs from "fs/promises"
-import path from "path"
 dotenv.config()
 
 const port = process.env.PORT || 3000
